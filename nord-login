@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# replace with your details
+PROJ_DIR=PATH_TO/nordvpn-login
+NORD_EMAIL="example@mymail.com"
+NORD_PASS="super_secret_password"
+
+cd PROJ_DIR
+source env/bin/activate
+python login.py "$NORD_EMAIL" "$NORD_PASS"
